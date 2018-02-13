@@ -35,7 +35,7 @@ def draw_line( x0, y0, x1, y1, screen, color ):
             y = y + 1
             d += (2 * b)
     # octant 7
-    if (a <= b ):
+    if (a <= -b and ((a < 0) or (-b < 0))):
         d = a - (2 * b)
         while(y < y1):
             plot(screen, color, x, y)
@@ -45,7 +45,7 @@ def draw_line( x0, y0, x1, y1, screen, color ):
             y = y - 1
             d -= (2 * b)
     # octant 8
-    if (a >= b and a < 0):
+    if (a >= -b and ((a < 0) or (-b < 0))):
         d = (2 * a) + b
         while(x < x1):
             plot(screen, color, x, y)
