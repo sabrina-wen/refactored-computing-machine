@@ -15,8 +15,7 @@ while(x <= 500):
     x = x + 20
 
 color = [ 255, 255, 0 ]
-draw_line(220, 220, 300, 300, screen, color)
-draw_line(380, 220, 300, 300, screen, color)
-draw_line(220, 220, 380, 220, screen, color)
+draw_line(0, 0, 500, 500, screen, color)
+draw_line(500, 0, 0, 500, screen, color)
 display(screen)
 save_extension(screen, 'img.png')
