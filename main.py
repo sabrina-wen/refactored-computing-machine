@@ -16,6 +16,6 @@ while(x <= 500):
 
 color = [ 255, 255, 0 ]
 draw_line(0, 0, 500, 500, screen, color)
-draw_line(500, 0, 0, 500, screen, color)
+draw_line(0, 500, 500, 0, screen, color)
 display(screen)
 save_extension(screen, 'img.png')
