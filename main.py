@@ -3,6 +3,32 @@ from draw import *
 
 screen = new_screen()
 color = [ 0, 255, 0 ]
+'''XRES = 500
+YRES = 500
+
+draw_line(0, 0, XRES-1, YRES-1, screen, color);
+draw_line(0, 0, XRES-1, YRES / 2, screen, color);
+draw_line(XRES-1, YRES-1, 0, YRES / 2, screen, color);
+
+color[2] = 255;
+draw_line(0, YRES-1, XRES-1, 0, screen, color);
+draw_line(0, YRES-1, 500, YRES/2, screen, color);
+draw_line(XRES-1, 0, 0, YRES/2, screen, color);
+
+color[0] = 255;
+color[1] = 0;
+color[2] = 0;
+draw_line(0, 0, XRES/2, YRES-1, screen, color);
+draw_line(XRES-1, YRES-1, XRES/2, 0, screen, color);
+
+color[2]= 255;
+draw_line(0, YRES-1, XRES/2, 0, screen, color);
+draw_line(XRES-1, 0, XRES/2, YRES-1, screen, color);
+
+color[2] = 0;
+color[1] = 255;
+draw_line(0, YRES/2, XRES-1, YRES/2, screen, color);
+draw_line(XRES/2, 0, XRES/2, YRES-1, screen, color);'''
 
 y = 480
 while(y >= 0):
